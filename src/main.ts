@@ -58,7 +58,7 @@ let photoSequence = 0;
 function photo(product: Product, className = ''): string {
   const [width, height, x, y, cropWidth, cropHeight] = frames[product.image];
   const clipId = `photo-crop-${++photoSequence}`;
-  return `<svg class="product-photo ${className}" viewBox="${x} ${y} ${cropWidth} ${cropHeight}" role="img" aria-label="${product.name}" focusable="false"><defs><clipPath id="${clipId}">${silhouettes[product.image] ?? `<rect x="${x}" y="${y}" width="${cropWidth}" height="${cropHeight}" />`}</clipPath></defs><image href="/images/${product.image}" width="${width}" height="${height}" clip-path="url(#${clipId})" /></svg>`;
+  return `<svg class="product-photo ${className}" viewBox="${x} ${y} ${cropWidth} ${cropHeight}" role="img" aria-label="${product.name}" focusable="false"><defs><clipPath id="${clipId}">${silhouettes[product.image] ?? `<rect x="${x}" y="${y}" width="${cropWidth}" height="${cropHeight}" />`}</clipPath></defs><image href="${import.meta.env.BASE_URL}images/${product.image}" width="${width}" height="${height}" clip-path="url(#${clipId})" /></svg>`;
 }
 // One readable label; its decorative copy only animates on pointer hover.
 const actionLabel = (label: string): string => `<span class="action-label"><span class="action-text">${label}</span><span class="action-echo" aria-hidden="true">${label}</span></span>`;

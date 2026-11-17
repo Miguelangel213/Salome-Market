@@ -69,3 +69,14 @@ Composición editorial adaptada a la identidad de Salomé Market, con interacci�
 Las tres fotos se guardan en WebP con sus dimensiones originales y se muestran completas. Los tres productos tienen ficha y enlace de pedido por WhatsApp. El catálogo contiene 17 productos.
 
 - Smartwatch Aibimy Watch 002: $135.000 COP, en Tecnología. Pantalla AMOLED, notificaciones inteligentes y modos deportivos indicados en la foto suministrada.
+
+## Publicar en GitHub Pages
+
+1. En Settings → Pages → Build and deployment → Source, seleccionar **GitHub Actions**.
+2. Fusionar la rama `codex/catalogo-curren-my266bts` con `main`.
+3. Esperar a que el workflow **Publicar Salomé Market** termine correctamente en Actions.
+4. Abrir https://miguelangel213.github.io/Salome-Market/.
+
+El workflow ejecuta `npm ci` y `npm run build:pages`, verifica TypeScript y publica `dist/`. Los pull requests solo compilan; la publicación se ejecuta desde `main`. Las fotos usan la base de Vite para funcionar dentro de `/Salome-Market/`.
+
+Para comprobar esa ruta localmente: `npm run build:pages` seguido de `npm run preview -- --base=/Salome-Market/`, y abrir http://127.0.0.1:4173/Salome-Market/.
