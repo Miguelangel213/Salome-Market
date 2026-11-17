@@ -15,7 +15,10 @@ const PRODUCTS = [
   {img:"img/p11.jpg",name:"Reloj Curren 8488",cat:"Relojes",price:145000,note:"Cronógrafo, silicona, 1 año de garantía",badge:"5 colores"},
   {img:"img/p12.jpg",name:"Valentino Born in Roma Intense 100 ml",cat:"Perfumes",price:105000,note:"Eau de parfum intense para hombre"},
   {img:"img/p13.jpg",name:"Paris Hilton 100 ml",cat:"Perfumes",price:80000,note:"Eau de parfum para mujer"},
-  {img:"img/p14.jpg",name:"Bharara Rose B3 100 ml + 10 ml",cat:"Perfumes",price:105000,note:"Incluye tamaño de viaje",badge:"Incluye 10 ml"}
+  {img:"img/p14.jpg",name:"Bharara Rose B3 100 ml + 10 ml",cat:"Perfumes",price:105000,note:"Incluye tamaño de viaje",badge:"Incluye 10 ml"},
+  {img:"img/p15.webp",name:"Reloj Curren azul con correa café",cat:"Relojes",price:120000,note:"Caja azul · Correa café"},
+  {img:"img/p16.webp",name:"Parlante Aibimy MY266BTS",cat:"Audio",price:120000,note:"Luces RGB · IPX6 · Conexión TWS"},
+  {img:"img/p17.webp",name:"Smartwatch Aibimy Watch 002",cat:"Relojes",price:135000,note:"Pantalla AMOLED · Notificaciones inteligentes · Modos deportivos"}
 ];
 /* ===== FIN CONFIGURACIÓN ===== */
 
