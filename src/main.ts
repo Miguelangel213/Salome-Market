@@ -30,6 +30,7 @@ const normalize = (value: string) => value.normalize('NFD').replace(/[\u0300-\u0
 // Encuadres de las piezas originales: conservan las rutas y excluyen los textos de contacto.
 // [ancho original, alto original, x, y, ancho de encuadre, alto de encuadre]
 const frames: Record<string, number[]> = {
+  'aibimy-watch-002.webp': [1536, 1024, 0, 0, 1536, 1024],
   'reloj-curren-azul.webp': [1205, 1181, 0, 0, 1205, 1181],
   'parlante-my266bts.webp': [1599, 1300, 0, 0, 1599, 1300],
   'cargador-18k.webp': [1000, 722, 50, 185, 700, 380],

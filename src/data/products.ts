@@ -25,4 +25,5 @@ export const products: Product[] = [
   { id: 'bharara-rose', name: 'Bharara Rose B3 100 ml + travel size', category: 'Perfumería', price: 105000, image: 'bharara-rose.webp', detail: 'Incluye presentación de viaje' },
   { id: 'curren-azul', name: 'Reloj Curren azul con correa café', category: 'Accesorios', price: 120000, image: 'reloj-curren-azul.webp', detail: 'Caja azul · Correa café' },
   { id: 'speaker-my266', name: 'Parlante Aibimy MY266BTS', category: 'Audio', price: 120000, image: 'parlante-my266bts.webp', detail: 'Luces RGB · IPX6 · Conexión TWS' },
+  { id: 'aibimy-watch-002', name: 'Smartwatch Aibimy Watch 002', category: 'Tecnología', price: 135000, image: 'aibimy-watch-002.webp', detail: 'Pantalla AMOLED · Notificaciones inteligentes · Modos deportivos' },
 ];

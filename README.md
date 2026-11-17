@@ -28,8 +28,8 @@ La compilación verifica TypeScript y genera el JavaScript y CSS del navegador e
 - `src/main.ts`: composición de las secciones, búsqueda, categorías, navegación móvil y enlaces de WhatsApp.
 - `src/style.css`: composición editorial, tarjetas y diseño adaptable a escritorio y móvil.
 - `src/styles/actions.css`: botones cápsula, estados de foco e interacción y alternativa con movimiento reducido.
-- `src/data/products.ts`: los 14 productos originales y los dos productos añadidos el 17 de noviembre de 2026.
-- `public/images/`: 14 imágenes recuperadas y dos fotos nuevas proporcionadas por el usuario, conservando las rutas `/images/`.
+- `src/data/products.ts`: los 14 productos originales y los tres productos añadidos el 17 de noviembre de 2026.
+- `public/images/`: 14 imágenes recuperadas y tres fotos nuevas proporcionadas por el usuario, conservando las rutas `/images/`.
 - `image-recovery.json`: procedencia y resolución de cada imagen recuperada.
 
 La búsqueda ignora tildes y mayúsculas y se combina con la categoría seleccionada. Cada pedido incluye el nombre exacto del producto. El contacto se configura en `whatsappNumber` dentro de `src/main.ts`; no se imprime en la página.
@@ -66,4 +66,6 @@ Composición editorial adaptada a la identidad de Salomé Market, con interacci�
 - Reloj Curren azul con correa café: $120.000 COP, en Accesorios. La imagen no identifica el número de modelo.
 - Parlante Aibimy MY266BTS: $120.000 COP, en Audio. Luces RGB, IPX6 y conexión TWS indicados en la imagen suministrada.
 
-Las dos fotos se guardan en WebP con sus dimensiones originales y se muestran completas. Ambos productos tienen ficha y enlace de pedido por WhatsApp. El catálogo contiene 16 productos.
+Las tres fotos se guardan en WebP con sus dimensiones originales y se muestran completas. Los tres productos tienen ficha y enlace de pedido por WhatsApp. El catálogo contiene 17 productos.
+
+- Smartwatch Aibimy Watch 002: $135.000 COP, en Tecnología. Pantalla AMOLED, notificaciones inteligentes y modos deportivos indicados en la foto suministrada.
